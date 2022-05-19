@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/arkaplan_gokyuzu"
+    android:layout_height="match_parent"
+    tools:context=".imamGazali">
+
+
+    <TextView
+        android:id="@+id/txt_sepet_gazali"
+        android:layout_width="115dp"
+        android:layout_height="60dp"
+        android:text="KİMYA İ SAADET 30TL"
+        android:textColor="#B62929"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.824"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_sepeteekle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="165dp"
+        android:layout_height="365dp"
+        android:src="@drawable/gazali"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="235dp"
+        android:layout_height="494dp"
+        android:text="Bu incelediğiniz eser şair hüsameddin oğlu sehabi’nin hüccetül-islam gazali hazretlerinden türkçeye çevirdiği o kimya-yı saadet’dir eskiler bu kitap için kimya-yı saadet kibrit-i ahmer gibi kimya-yı zamandır demişlerdir. Kimya-yı saadet tasavvuf ve ahlak konularında yazılmıştır. Bir başlangıç dört rukundan ibarettir her rükün on asıl’a yani bab’a bölünmüştür.bu kitap imam ebu hamid gazalinin ünlü eseri ihyau ulumid-din adındaki Arapça eserinden halk için ve kendi tarafından özel olarak yazılmıştır.
+"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

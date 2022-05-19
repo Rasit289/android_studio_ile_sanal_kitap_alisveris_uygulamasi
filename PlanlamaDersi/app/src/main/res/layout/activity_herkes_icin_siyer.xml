@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan_kahverengi"
+    tools:context=".HerkesIcinSiyer">
+
+    <TextView
+        android:id="@+id/txt_sepet_gazali"
+        android:layout_width="115dp"
+        android:layout_height="60dp"
+        android:text="Herkes için Siyer  20 tl"
+
+        android:textColor="#B62929"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.824"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_sepeteekle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="165dp"
+        android:layout_height="365dp"
+        android:src="@drawable/siyer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="235dp"
+        android:layout_height="494dp"
+        android:text="Peygamber (s.a.v.) sevdalısı ve şairi olan Hassân b. Sâbit’e (r.a.), “Muhammed’i övecek bir şiir oku!” dediklerinde, “Ben sözlerimle Muhammed’i (s.a.v.) övemem, bilakis Muhammed (s.a.v.) ile sözlerimi güzelleştirmiş olurum,” demiştir.
+
+İşte Herkes İçin Siyer’in amacı, Efendimiz’in (s.a.v.) o bereketli ömrüne yapacağımız yolculukla güzelleşmek, onun hayatından kendi hayatımıza güzel hasletler aktarabilmektir…
+"
+        android:textSize="17dp"
+        android:textColor="#F4EFEF"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

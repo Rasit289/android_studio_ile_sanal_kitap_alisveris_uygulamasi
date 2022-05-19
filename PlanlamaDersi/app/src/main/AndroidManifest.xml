@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.planlamadersi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PlanlamaDersi">
+        <activity android:name=".Saatlari_Ayarlama"></activity>
+        <activity android:name=".Don_kisot" />
+        <activity android:name=".Edebiyat" />
+        <activity android:name=".DunyaKlasikleri" />
+        <activity android:name=".bilgilerim" />
+        <activity android:name=".HerkesIcinSiyer" />
+        <activity android:name=".SSepet" />
+        <activity android:name=".RandomKitap" />
+        <activity android:name=".Tarih_kitap" />
+        <activity android:name=".konum" />
+        <activity android:name=".PusluKitalar" />
+        <activity android:name=".NecipFazil" />
+        <activity android:name=".hakkimizda" />
+        <activity android:name=".kayi" />
+        <activity android:name=".imamGazali" />
+        <activity android:name=".tarihKitaplari" />
+        <activity android:name=".islamKitaplari" />
+        <activity android:name=".yonetim" />
+        <activity android:name=".kategoriler" />
+        <activity android:name=".kitaplar" />
+        <activity android:name=".AnaSayfa" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
